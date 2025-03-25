@@ -1,0 +1,64 @@
+<html>
+<head>
+	<title>Menu</title>
+	<style type="text/css">
+		@import url("estilomenu.css"); 
+	   </style>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+        window.onload = function() {
+            var links = document.getElementsByTagName("a");
+            
+            for(var i=0; i<links.length; i++) {
+                links[i].addEventListener("click", function() {
+                    //this.style.backgroundColor = "#ccc";
+                            $('.whitebg').removeClass('whitebg');
+                            $(this).addClass('whitebg');
+                    });
+                }
+        }
+
+    </script>
+</head>
+<body bgcolor="#b00000" text="white" link="white" alink="#ecb700" vlink="white">
+<center>
+<!-- <h1><b>▣ Confira nosso menu ▣</b></h1> -->
+
+<div class="container">
+<div class="submenu">
+<h2><ul class="texto">
+    <li><a href="quem-somos.html" target="principal"><span>Quem somos</span></a></li>
+
+    <li><a href="sabores.html" target="principal"><span>Conheça nossas receitas</span></a></li>
+
+    <!-- <li><a href="onde-comprar.html" target="principal"><span>Saiba onde comprar</span></a></li> -->
+
+    <li><a href="como-fazer.html" target="principal"><span>Aprenda como fazer</span></a></li>
+
+    <li><a href="formulario.html" target="principal"><span>Faça seu cadastro</span></a></li>
+</ul>
+</h2>
+</div> 
+</div>
+
+
+
+<!-- <div class="container">
+    <div class="submenu">
+        <ul class="texto"><h2>
+            <li><a href="quem-somos.html" target="principal"><span>Quem somos</span></a></li>
+        
+            <li><a href="sabores.html" target="principal"><span>Conheça os sabores</span></a></li>
+        
+            <li><a href="onde-comprar.html" target="principal"><span>Saiba onde comprar</span></a></li>
+        
+            <li><a href="como-fazer.html" target="principal"><span>Aprenda como fazer</span></a></li>
+        
+            <li><a href="formulario.html" target="principal"><span>C A D A S T R O</span></a></li>
+        </h2></ul>
+    </div>
+</div> -->
+
+</body>
+</html>

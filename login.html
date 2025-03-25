@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <title>Login</title>
+    <style type="text/css">
+        @import url("estilologin.css");
+    </style>
+    <script Language="JavaScript">
+        function validar() {
+            // declaração de Variáveis
+            var usuario = document.frm_login.txt_usuario.value;
+            var senha = document.frm_login.txt_senha.value;
+            if ((usuario == "fatec" || usuario == "fatec@maua") &&
+                senha == "123a") {
+                alert("Conta logada com sucesso!");
+                window.location = ("home.html");
+            }
+            else {
+                alert("Conta inválida!");
+                document.frm_login.txt_usuario.value = "";
+                document.frm_login.txt_senha.value = "";
+                document.frm_login.txt_usuario.focus();
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <!-- Comentário -->
+    <div class="container">
+        <img src="capalogo.png" width="100%" height="20%">
+        <div class="containerForm">
+            <form name="frm_login">
+                <fieldset>
+                    <legend>Dados da conta</legend>
+                    <label>Usuário ou E-mail</label><br>
+                    <input type="text" class="inputText" name="txt_usuario" value=""><br>
+                    <label>Senha</label><br>
+                    <input type="password" class="inputText" name="txt_senha" value="" size="60">
+                    
+                        <input type="button" class="inputButton" value="Entrar" onclick="validar()">
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+
+body{
+   background-color: #F5E9A1;
+   border-radius: 2px;
+}
+
+.quemSomos h1{
+   color: #8f0000;
+   padding-top: 10px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   margin-top: 30px;
+}
+
+.quemSomos p{
+   color: #634F32;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
+   margin-right: 50px;
+   margin-left: 50px;
+   line-height: 150%;
+   text-align: justify;
+   text-indent: 5em;
+   padding: 1em;
+}
+
+.quemSomos{
+   text-align: center;
+}
+
+ /*.submenu a{
+    color: black;
+}*/

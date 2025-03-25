@@ -1,0 +1,48 @@
+body{
+   /* background-color: #F5E9A1;
+   border-radius: 2px; */
+   background-color: red; /* For browsers that do not support gradients */
+   background-image: linear-gradient(to bottom right,  yellow, #B10400);
+   /* background-image: linear-gradient(#fff, rgb(255, 255, 103)); */
+
+}
+
+.containerForm{
+   text-align: center;
+   width: 20%;
+   margin: 13% 0px 0px 40%;
+   color: #fff;
+
+}
+
+.containerForm input.inputText{
+   width: 100%;
+}
+
+.containerForm legend{
+   font-weight: bold;
+   font-size: 20px;
+   margin-bottom: 15px;
+}
+
+.containerForm fieldset{
+   background-color: #B10400;
+}
+
+.inputButton{
+   width: 50%;
+   padding: 5px;
+   background-color: #F5E9A1;
+   color: #000;
+   cursor:pointer;
+   margin-top: 30px;
+   margin-bottom: 10px;
+   display: inline-block;
+   line-height: 25px;
+   font-weight: bold;
+   font-size: 14px;
+   font-family: sans-serif;
+   border: 2px solid #ffffff;
+   letter-spacing: 1.5px;
+   position: relative;
+}
